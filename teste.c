@@ -75,6 +75,7 @@ int main(){
         printf("Confirme sua senha:\n");
         scanf("%d", &senha);*/   
      while(1)
+     {
      printf("Qual Operacao Deseja Fazer?\n\n");
      printf("\n<1>Efetuar Saque\n<2>Efetuar Deposito\n");
      scanf("%d", &operacao);
@@ -84,8 +85,8 @@ int main(){
             printf("Operação Inválida!\n");
        
         }
-     while(operacao >= 1 || operacao <= 4)
-     {
+
+     
     switch(operacao){
         
         case 1:/*Saque*/

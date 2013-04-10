@@ -1,5 +1,3 @@
-ep2
-===
 #include <stdio.h>
 int main(){
     int nota2, nota5, nota10, nota20, nota50, nota100, senha, s, saldo1, operacao, saque, deposito, saldo;

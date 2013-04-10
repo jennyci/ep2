@@ -81,7 +81,7 @@ int main(){
      scanf("%d", &operacao);
         if( operacao < 0 || operacao > 4)
         {
-            while(operacao < 0 || operacao > 4)
+            
             printf("Operação Inválida!\n");
        
         }

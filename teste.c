@@ -74,14 +74,15 @@ int main(){
         scanf("%d", &senha);
         printf("Confirme sua senha:\n");
         scanf("%d", &senha);*/   
-
+     while(1)
      printf("Qual Operacao Deseja Fazer?\n\n");
      printf("\n<1>Efetuar Saque\n<2>Efetuar Deposito\n");
      scanf("%d", &operacao);
-        while( operacao < 0 || operacao > 4)
+        if( operacao < 0 || operacao > 4)
         {
-        printf("Operação Inválida!\n");
-        break;
+            while(operacao < 0 || operacao > 4)
+            printf("Operação Inválida!\n");
+       
         }
      while(operacao >= 1 || operacao <= 4)
      {
